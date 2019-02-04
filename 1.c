@@ -6,14 +6,14 @@ printf("enter the value of n");
 scanf("%d",&n);
 if(n>0)
 {
-printf("n is positive");
+printf("Positive");
 }
 elif(n<0)
 {
-printf("n is negative");
+printf("Negative");
 }
 else
 {
-printf("n is zero");
+printf("Zero");
 }
 }
