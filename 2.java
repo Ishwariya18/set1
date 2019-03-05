@@ -11,7 +11,7 @@ if(num%2==0)
 {
 System.out.println("Even");
 }
-elseif(num%2!=0)
+else if(num%2!=0)
 {
 System.out.println("Odd");
 }
