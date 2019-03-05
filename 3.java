@@ -1,4 +1,4 @@
-public class Vowelconsonant
+class Vowelconsonant
 {
     public static void main(String arrgs[])
     {
