@@ -3,15 +3,15 @@ class one
 {
 public static void main(String args[])
 {
-int num;
-System.out.println("enter the num");
+int x;
+System.out.println("enter the value of x:");
 Scanner in=new Scanner(System.in);
-num=in.nextInt();
-if(num%2==0)
+x=in.nextInt();
+if(x%2==0)
 {
 System.out.println("Even");
 }
-else if(num%2!=0)
+else if(x%2!=0)
 {
 System.out.println("Odd");
 }
