@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class greatest_nos;
+public class greatest
 {
 public static void main(String args[])
 {
