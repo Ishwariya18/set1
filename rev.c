@@ -8,7 +8,7 @@ while(n!=0)
 reverse=reverse*10;
 reverse=reverse+n%10;
 n=n/10;
-printf(n);
+printf(reverse);
 return 0;
 }
 }
