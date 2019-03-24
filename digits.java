@@ -1,5 +1,5 @@
 import java.io.*;
-import java.Scanner;
+import java.util.Scanner;
 class digits
 {
 public static void main(String args[])
