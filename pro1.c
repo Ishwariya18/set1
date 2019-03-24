@@ -6,7 +6,7 @@ char str[100],temp;
 int i,j=0;
 gets(string);
 i=0;
-j=strlen(srr)-1;
+j=strlen(str)-1;
 while(i<j)
 {
 temp=str[i];
