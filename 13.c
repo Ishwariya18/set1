@@ -7,11 +7,11 @@ int main()
   {
     if(n%i==0)
     {
-      printf("no");
+      printf("yes");
    }
     else
     {
-    printf("yes");
+    printf("no");
     }
     return 0;
   }
