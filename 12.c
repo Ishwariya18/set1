@@ -1,21 +1,20 @@
 #include<stdio.h>
 int main()
 {
-int n,num,rev=0;
+int n,rev=0;
 scanf("%d",&n);
-num=n;
 while(n!=0)
 {
 rev=(rev*10)+(n%10);
 n/=10;
-if(rev==num)
+if(rev==n)
 {
-printf("yes",num);
+printf("yes",n);
 }
 else
 {
-printf("no",num);
+printf("no",n);
 
 }
-returrn 0;
+return 0;
 }
