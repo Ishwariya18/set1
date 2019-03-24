@@ -4,11 +4,11 @@ class digits
 {
 public static void main(String args[])
 {
-int num,sum=0;
+int n,sum=0;
 Scanner in=new Scanner(System.in);
-num=in.nextLine();
+n=in.nextLine();
 
-for(int i=1;i<=num;++i)
+for(int i=1;i<=n;++i)
 {
 sum+=i;
 }
