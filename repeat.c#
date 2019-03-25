@@ -1,0 +1,7 @@
+int singular(int[] a)
+{
+int value=0;
+for(int i=0;i<a.length;i++)
+value=value^a[i];
+return value;
+}
