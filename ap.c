@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 int main()
 {
 int first,diff,terms,value,sum=0,i;
