@@ -14,5 +14,3 @@ for i in range(0,len(l)-1):
     h.append(s)
 for i in h:
     print(i)
-       
-       
