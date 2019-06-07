@@ -1,6 +1,18 @@
-a,b=map(int,raw_input().split())
-l=list(map(int,raw_input().split())
-for i in range(b):
-  u,v=map(int,raw_input().split())
-  c=l[u-1:v]
-  print(sum(c))
+s,k=map(int,input().split())
+f=list(map(int,input().split())
+li=[]
+l=[]
+h=[]
+for i in range(0,k):
+  u,v=map(int,input().split())
+  for i in range(u,v+1):
+    li.append(f[i-1)
+  l.append(sum(li))
+ h.append(l[0])
+ for i in range(0,len(1)-1):
+  s=l[i+1]-l[i]
+  h.apppend(s)
+ for i in h:
+  print(i)
+       
+       
