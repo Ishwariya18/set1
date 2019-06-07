@@ -1,10 +1,3 @@
-def main():
-f=1
-n=int(input())
-for i in range(1,n)
-f=f*i
-print(f)
-try:
-main()
-except:
-print('invalid')
+num=int(input())
+num1=int(num*(num-1)/2)
+print(num1)
