@@ -6,7 +6,7 @@ l7=[]
 for i in range(k):
   x=[int(x) for x in input().split()]
   l7.append(x)
-for i in range(len(17)):
+for i in range(len(l7)):
   k=l7[i][0]
   j=l7[i][1]
   x=reduce(xor,l[k-1:j])
