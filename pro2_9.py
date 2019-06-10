@@ -1,7 +1,12 @@
-b=[]
-for _ in range(int(input())):
-    li=list(map(int,input().split()))
-    for i in li:
-        b.append(i)
- b.sort()
- print(*b)
+n=int(input())
+h=0
+globallist=[]
+while(h<n):
+    lis=list(map(int,input().split(" ")))
+    globallist.extend(lis)
+    h=h+1
+globallist.sort()
+h=0
+while(h<len(globallist)):
+    print(globallist[h],end=" ")
+    h=h+1
