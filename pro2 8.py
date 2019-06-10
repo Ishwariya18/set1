@@ -1,17 +1,29 @@
-n,m=map(int,input().split())
-l=[]
-g=0
-for i in range(n):
-    l.append(list(map(int,input().split())))
-for i in range(n):
-    for j in range(m-1):
-        for k in range(j+1,m+1):
-            if l[i][j:k]==[l]*len(l[i][j:k]):
-                 if all(l[p+i][j:k]==[l]*len(l[p+i][j:k]) for p in range(len(l[i][j:k])-1)):
-                    if len(l[i][j:k])>g:
-                       g=len(l[i][j:k])
-if len(l)==1 and len(l[0])==1 and l[0][0]==1:
-    print(1)
-for i in range(g):
-    print (*[l]*g)
-          
+num,m=map(eval,input().split())
+binM=[]
+for i in range(num):
+  binM.append(list(map(eval,input().split())))
+col,row=1,1
+for i in range(num):
+  for j in range(m):
+    if binM[i][j]==1:
+      c=1
+      r=1
+      j1=j
+      while j1<m and binM[i][j1]==1:
+        j1+=1
+        r+=1
+      i1=i
+      for k in range(r):
+        if i1+1<num:
+          if binM[i1][j:j+r]==binM[i1+1][j:j+r]:
+            c+=1
+            i1+=1
+          else:
+            break
+        else:
+          break
+  if c>col:
+    col=c
+for i in range(col):
+  out=[1]*col
+  print(*out)
