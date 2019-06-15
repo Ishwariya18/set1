@@ -1,14 +1,14 @@
-a=int(input())
+ipt=int(input())
 i=0
 x=0
 b=[]
-while i<90 and i<a:
+while i<90 and i<ipt:
   r=0
-  for j in str(a-i):
+  for j in str(ipt-i):
     r+=int(j)
-  if r+(a-i)==a:
+  if r+(ipt-i)==ipt:
     x+=1
-    b.append(a-i)
+    b.append(ipt-i)
   i+=1
 print(x)
 for i in b:
