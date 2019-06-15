@@ -4,7 +4,7 @@ if a5<=b5:
 else:
   d=b5
 z=[]
-for i in range(0,d);
+for i in range(0,d):
   z.append(sorted(list(map(int,input().split()))))
 z=sorted(z)
 for i in rage(0,len(z[0])):
