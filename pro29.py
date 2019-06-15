@@ -12,4 +12,4 @@ while i<90 and i<a:
   i+=1
 print(x)
 for i in b:
-  print(1)
+  print(i)
