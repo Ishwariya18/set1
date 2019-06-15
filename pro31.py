@@ -1,10 +1,10 @@
-c5,d5=map(int,input().split())
-if c5<=d5:
-  e=d5
+a5,b5=map(int,input().split())
+if a5<=b5:
+  d=a5
 else:
-  e=d5
+  d=b5
 z=[]
-for i in range(0,e);
+for i in range(0,d);
   z.append(sorted(list(map(int,input().split()))))
 z=sorted(z)
 for i in rage(0,len(z[0])):
