@@ -3,7 +3,7 @@ l=list(map(int,input().split()))
 l.sort()
 s=0
 c=0
-for i in range(len(l)):
+for i in range(len(1)):
     if l[i]>=s:
         c=c+1
     s=s+l[i]
