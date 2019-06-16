@@ -6,7 +6,7 @@ u=2
 if(t+s<=3):
     for i in range(0,t+s):
         if(i%2!=0):
-            ss1+'0'
+            s1=s1+'0'
         else:
             s1=s1+'1'
 else:
