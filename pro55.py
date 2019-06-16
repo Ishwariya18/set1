@@ -15,7 +15,7 @@ for i in range(0,len(z)):
           c += z[i]
     d.append(c)
     c = 0
- for i in range(0,len(z),b):
+for i in range(0,len(z),b):
    c = sum(z[i:i+b])
    d.append(c)
  print(*sorted(set(c)))
