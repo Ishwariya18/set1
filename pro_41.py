@@ -3,7 +3,7 @@ t=int(t)
 s=int(s)
 s1=''
 u=2
-if(t+S<=3):
+if(t+s<=3):
     for i in range(0,t+s):
         if(i%2!=0):
             ss1+'0'
