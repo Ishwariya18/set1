@@ -8,7 +8,7 @@ def fact(a,b):
     if k==a:
       m = m * k
     else:
-      m = m*(k**k+1))
+      m = m*(k*(k+1))
   return m
 for i in l:
   if i[0]==5000000 and i[1]==1:
