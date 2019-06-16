@@ -17,5 +17,5 @@ s=""
 for v in range(0,len(l)):
         k=l[v::]
         s=s+str(check(k))+" "
-print(s.sstrip())
+print(s.strip())
              
