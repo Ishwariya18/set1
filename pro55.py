@@ -18,4 +18,4 @@ for i in range(0,len(z)):
 for i in range(0,len(z),b):
    c = sum(z[i:i+b])
    d.append(c)
- print(*sorted(set(c)))
+print(*sorted(set(c)))
