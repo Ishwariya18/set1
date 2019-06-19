@@ -2,7 +2,7 @@ a1,b=map(int,input().split())
 c=list(map(int,input().split()))
 discs={}
 for i in range(len(c)):
-    f=[abs(c[i]-b) for i in range(len(l))]
+    f=[abs(c[i]-b) for i in range(len(c))]
 for i in range(len(c)):
     discs[c[i]]=f[i]
 del discs[b]
