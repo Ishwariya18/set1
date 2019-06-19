@@ -1,6 +1,6 @@
 from itertools import permutations
 a=list(input())
-b=permutatioms(a)
+b=permutations(a)
 c=[]
 for i in list(b):
     k=''
