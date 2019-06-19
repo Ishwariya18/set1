@@ -1,10 +1,10 @@
-a=input()
-b=''
-c=[]
-for i in a:
-    if i not in c:
-        b+=i
-        c.append(i)
-    elif i in c:
+u=input()
+v=''
+w=[]
+for i in u:
+    if i not in w:
+        v+=i
+        w.append(i)
+    elif i in w:
         break
-print(len(c))
+print(len(w))
