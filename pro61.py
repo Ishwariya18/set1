@@ -3,7 +3,7 @@ b=input()
 c="abcdefghijklmnopqrstuvwxyz"
 d=[]
 e=[]
-s=""
+m=""
 for i in range(0,len(a)):
     for j in range(0,len(c)):
         if a[i]==c[j]:
